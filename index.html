@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Álbum casamento01</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de Casamento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 15;
+            padding: 0;
+            background-image: url('https://lh3.googleusercontent.com/pw/AP1GczM9DNduBM4tTXgjUz_0RydxHZs8VJUE88mHpJjtku09Wwrq8muVw9adcwq8fE6YDV06e9L0xmiBqO4pnld0HdXAjBPQLyqpLIK-qChf176KNdbiCD2MiPJ8aCK4lfg2DZaycj1FX3S-XxBrzVTSAlcG-w=w911-h607-s-no-gm?authuser=0'); /* Coloque o caminho da imagem de fundo */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .banner {
+            width: 100%;
+            text-align: right corner;
+            padding: 45px;
+            background-image: url('https://encurtador.com.br/UA0gq'); /* Coloque o caminho da imagem do banner */
+            background-size: cover;
+            background-position: center;
+            color: #af3a3f;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra no título */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 35px;
+            color: #ffffff;
+            cursor: pointer;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .close:hover {
+            color: #ff4081;
+        }
+
+        footer {
+            width: 100%;
+            background-color: rgba(17, 1, 0, 10.7);
+            color: #fff;
+            padding: 15px;
+            font-size: 0.9em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contact-info {
+            text-align: left;
+        }
+
+        .photographer-name {
+            text-align: right;
+            margin-left: auto;
+        }
+
+        /* Estilo do botão WhatsApp */
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #25D366;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1EBE57;
+        }
+    </style>
+</head>
+<body>
+
+<div class="banner">
+    Rita & Miquéias
+</div>
+
+<div class="gallery">
+    <img src="https://encurtador.com.br/Wsz4T" alt="Foto 1">
+    <img src="https://encurtador.com.br/TL2l9" alt="Foto 2">
+    <img src="https://encurtador.com.br/NeoAs" alt="Foto 3">
+    <img src="https://abrir.link/cixhH" alt="Foto 4">
+    <img src="https://bit.ly/3YvKHT0" alt="Foto 5">
+  <img src="https://bit.ly/48Cgfet" alt="Foto 1">
+    <img src="https://bit.ly/4hDCBjM" alt="Foto 2">
+    <img src="https://bit.ly/4edSVF3" alt="Foto 3">
+    <img src="https://bit.ly/40DngtB" alt="Foto 4">
+    <img src="https://bit.ly/3Cp8QDc" alt="Foto 5">
+  <img src="https://bit.ly/3NTwOJB" alt="Foto 1">
+    <img src="https://bit.ly/3UDuz0C" alt="Foto 2">
+    <img src="https://bit.ly/3UD8U8K" alt="Foto 3">
+    <img src="https://bit.ly/4fBdgFo" alt="Foto 4">
+    <img src="https://abre.ai/lqh0" alt="Foto 5">
+  <img src="https://abre.ai/lqh2" alt="Foto 1">
+    <img src="https://abre.ai/lqh5" alt="Foto 2">
+    <img src="https://abre.ai/lqh6" alt="Foto 3">
+    <img src="https://abre.ai/lqh7" alt="Foto 4">
+    <img src="https://abre.ai/lqh8" alt="Foto 5">
+  <img src="https://abre.ai/lqh9" alt="Foto 1">
+    <img src="https://abre.ai/lqib" alt="Foto 2">
+    <img src="https://abre.ai/lqic" alt="Foto 3">
+    <img src="https://abre.ai/lqid" alt="Foto 4">
+    <img src="https://abre.ai/lqie" alt="Foto 5">
+  <img src="https://abre.ai/lqif" alt="Foto 1">
+    <img src="https://abre.ai/lqih" alt="Foto 2">
+    <img src="https://abre.ai/lqii" alt="Foto 3">
+    <img src="https://abre.ai/lqij" alt="Foto 4">
+    <img src="https://abre.ai/lqim" alt="Foto 5">
+  <img src="https://abre.ai/lqin" alt="Foto 5">
+  <img src="https://abre.ai/lqip" alt="Foto 5">
+  <img src="https://abre.ai/lqir" alt="Foto 5">
+  <img src="https://abre.ai/lqis" alt="Foto 5">
+   <img src="https://abre.ai/lqiu" alt="Foto 5">
+  <img src="https://abre.ai/lqiw" alt="Foto 5">
+
+</div>
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="imgModal">
+</div>
+
+<footer>
+    <div class="contact-info">
+        <p>Contato: mozsan79@gmail.com</p>
+        <a href="https://wa.me/5517996794273" class="whatsapp-button" target="_blank">Fale comigo no WhatsApp</a>
+    </div>
+    <div class="photographer-name">
+        <p>Fotógrafo: Mosaniel Persan</p>
+    </div>
+</footer>
+
+<script>
+    const modal = document.getElementById("myModal");
+    const modalImg = document.getElementById("imgModal");
+    const closeBtn = document.querySelector(".close");
+    const galleryImages = document.querySelectorAll(".gallery img");
+
+    galleryImages.forEach(img => {
+        img.addEventListener("click", () => {
+            modal.style.display = "flex";
+            modalImg.src = img.src;
+        });
+    });
+
+    closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+</script>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
